@@ -1,0 +1,126 @@
+body {
+    background: #4F4F4F;
+}
+
+
+/*Titulo*/
+
+.ms-1 {
+  margin-left: 45% !important
+
+}
+
+.cor-texto{
+    color: white!important;
+}
+
+.titulo{
+   font-size: 20px;
+}
+
+/*cards*/
+
+.card{
+    padding: 0;
+    margin: 0.8rem 0.8rem 0.8rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 220px;
+    max-width: 100%;
+}
+
+.posicao-card{
+    display:flex ;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.borda-cor-especial:active {
+    border: 5px solid  #FF1493;
+    
+}
+
+#cards{
+    position: absolute;
+    opacity: 0;
+}
+
+label span{
+    cursor: pointer;
+}
+
+
+#cards:checked + label span:nth-child(1){
+    
+    background-image: url("download (1).jfif")!important;
+}
+
+/*Botoes(like e deslike)*/
+
+.botao {
+    background: none;
+    border: none;
+}
+
+.descricao{
+    margin-left: 10em;
+    padding-top: 250px;
+    font-family: Arial;
+    color: #eee;
+}
+
+i{
+    font-size: 20px;
+}
+
+.botao{
+    font-family: Arial;
+    background: none;
+    border:none;
+    color: white;
+    display: flex;
+}
+
+.play{
+    margin-left: 230px;
+}
+
+.barra{
+    width: 160px;
+    height: 4px;
+    border: 1px solide #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.player{
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.play{
+    font-size: 17px;
+    cursor:pointer;
+    border: #FF1493;
+    background-color:#FF1493 ;
+    border-radius: 5px; 
+}
+
+.like .deslike{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.like:active{
+    color: #FF1493;
+}
+
+.deslike{
+    color: #FF1493;
+}
